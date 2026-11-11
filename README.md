@@ -188,4 +188,4 @@ Being unusual is not evidence of fraud. Many flagged prescribers will have legit
 
 ## Acknowledgments
 
-Built with Claude as an AI coding assistant. Design decisions, review, and interpretation are my own.
+Built with AI assistant. Design decisions, review, and interpretation are my own.
