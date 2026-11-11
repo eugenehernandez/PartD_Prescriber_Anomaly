@@ -36,7 +36,8 @@ def _peer_stats(x: pd.Series, groups: pd.Series) -> tuple[pd.Series, pd.Series, 
     dev = (x - med).abs()
     mad = dev.groupby(groups).transform("median") * 1.4826
     # When most of a group sits at one value (for example, no opioid claims), the MAD
-    # is 0. Use the mean absolute deviation instead (Iglewicz and Hoaglin, 1993).
+    # is 0. Use the mean absolute deviation instead, times sqrt(pi/2) = 1.2533, which
+    # makes it estimate the standard deviation for normal data, as 1.4826 does for the MAD.
     meanad = dev.groupby(groups).transform("mean") * 1.253314
     scale = mad.where(mad > 1e-9, meanad)
     n_obs = g.transform("count")
