@@ -1,0 +1,21 @@
+# Data never goes in the repo
+*.csv
+!output/*.csv
+!output/*/*.csv
+*.zip
+*.duckdb
+*.parquet
+partd_raw/
+tests/synthetic/
+
+# Flagged prescribers with NPIs
+output/private/
+output/*/private/
+
+# MLflow and Python
+mlruns/
+mlflow.db
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
