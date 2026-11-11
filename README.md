@@ -54,7 +54,16 @@ For fraud-related exclusions only, both methods flagged 5 of the 133 (lift 3.8),
 2. **The method chosen in advance held up.** In the sensitivity sweep, the median and MAD version caught 11 excluded prescribers (lift 2.8, AUROC 0.60), against 17 for the rank-based primary.
 3. **The specialty imbalance halved again.** The highest flag rate among large specialties was 3.6%, against 6.4% for the median and MAD version, the same pattern seen in 2024.
 4. **Flags now lead with volume and cost.** The most common leading reasons are cost per beneficiary (2,603 flags) and claims per beneficiary (1,667), rather than antibiotic share.
-5. **The two methods agree far less than in 2024.** Only 3,024 prescribers are flagged by both (Jaccard 0.14). Part of this is by design, since rank-based scores reshape every feature. Part may be a handicap for the baseline. Under rank-based scores, the most extreme possible score depends on peer group size, so the baseline's top ranks favor members of large groups. A check with `--scaling robust` is on the roadmap.
+5. **The forest also beats the baseline in its original form.** Under rank-based scores, the most extreme possible score depends on peer group size, which could handicap the baseline. So the baseline was rerun on median and MAD scores (`output/2023_robust`). It caught 13 excluded prescribers at 1%, about the same as its 14 under rank-based scores, and the forest's lift was higher at every cutoff.
+
+    | Share flagged | Forest, excluded (lift) | Baseline on median and MAD, excluded (lift) |
+    |---|---|---|
+    | 0.25% | 8 (8.1) | 2 (2.0) |
+    | 1% | 17 (4.3) | 13 (3.3) |
+    | 5% | 67 (3.4) | 42 (2.1) |
+    | 10% | 101 (2.6) | 64 (1.6) |
+
+    The two methods flag quite different prescribers in 2023 (Jaccard 0.14), mostly because rank-based scores reshape every feature.
 6. **Stability is similar to 2024.** The mean Jaccard of flagged sets across five seeds is 0.70.
 
 **Sensitivity**
@@ -176,7 +185,7 @@ python run_all.py --partd tests/synthetic/partd_synthetic.csv --leie tests/synth
 1. ~~Pipeline, QC, peer features, Isolation Forest, baseline, validation, MLflow~~
 2. ~~Run on the 2024 file and write up the results~~
 3. ~~Rerun on 2023 with rank-based peer scores declared in advance as the primary analysis~~
-4. Rerun 2023 with `--scaling robust` to give the baseline its original form, and keep the baseline on median and MAD scores in future runs
+4. ~~Rerun 2023 with `--scaling robust` to check the baseline in its original form~~
 5. Average scores across several seeds for steadier flags near the cutoff
 6. SHAP values for flagged prescribers, alongside the plain-language reason codes
 7. A state map of flag rates
@@ -188,4 +197,4 @@ Being unusual is not evidence of fraud. Many flagged prescribers will have legit
 
 ## Acknowledgments
 
-Built with AI assistant. Design decisions, review, and interpretation are my own.
+Built with Claude as an AI coding assistant. Design decisions, review, and interpretation are my own.
