@@ -1,0 +1,87 @@
+specialty,prescribers,flagged,flag_rate_pct
+Family Practice,108984,5188,4.76
+Pharmacist,34918,2246,6.43
+Emergency Medicine,51917,896,1.73
+Internal Medicine,114346,498,0.44
+Nurse Practitioner,234925,485,0.21
+Physician Assistant,122337,440,0.36
+Dermatology,13714,275,2.01
+Cardiology,18861,254,1.35
+Hospitalist,18096,179,0.99
+Pulmonary Disease,9262,168,1.81
+Ophthalmology,18400,159,0.86
+Obstetrics & Gynecology,28579,106,0.37
+Urology,10291,106,1.03
+Dentist,120421,104,0.09
+Neurology,13510,96,0.71
+Nephrology,9034,93,1.03
+General Practice,7647,88,1.15
+Endocrinology,6387,77,1.21
+Orthopedic Surgery,20260,72,0.36
+Hematology-Oncology,8689,69,0.79
+Infectious Disease,5505,65,1.18
+Gastroenterology,14325,62,0.43
+Critical Care (Intensivists),1635,47,2.87
+General Surgery,18852,43,0.23
+Psychiatry,20437,36,0.18
+Otolaryngology,9808,35,0.36
+Student in an Organized Health Care Education/Training Program,54664,34,0.06
+Anesthesiology,3518,32,0.91
+Rheumatology,5115,31,0.61
+Neurosurgery,3371,29,0.86
+Interventional Cardiology,4555,26,0.57
+Clinical Cardiac Electrophysiology,2549,22,0.86
+Oral Surgery (Dentist only),5569,22,0.4
+Psychiatry & Neurology,9029,21,0.23
+Geriatric Medicine,1834,21,1.15
+Sports Medicine,1683,20,1.19
+Medical Oncology,3491,19,0.54
+Vascular Surgery,3212,18,0.56
+Allergy/ Immunology,3629,16,0.44
+Plastic and Reconstructive Surgery,3283,13,0.4
+Radiation Oncology,4408,11,0.25
+Interventional Pain Management,1545,<11,
+Pediatric Medicine,2242,<11,
+Pharmacy,124,<11,
+Physical Medicine and Rehabilitation,7864,<11,
+Pain Management,2720,<11,
+Orthopaedic Surgery,1511,<11,
+Podiatry,15087,<11,
+Certified Clinical Nurse Specialist,1719,<11,
+Interventional Radiology,627,<11,
+Neuropsychiatry,1200,<11,
+Diagnostic Radiology,1277,<11,
+Certified Nurse Midwife,1650,<11,
+Hematology,807,<11,
+Maxillofacial Surgery,790,<11,
+Specialist,997,<11,
+Naturopath,798,<11,
+Hand Surgery,1520,<11,
+Thoracic Surgery,1234,<11,
+Preventive Medicine,566,<11,
+Certified Registered Nurse Anesthetist (CRNA),126,<11,
+Addiction Medicine,357,<11,
+Optometry,28458,<11,
+Plastic Surgery,835,<11,
+Surgery,256,<11,
+Geriatric Psychiatry,161,<11,
+Dental Hygienist,126,<11,
+Colorectal Surgery (Proctology),1594,<11,
+Hospice and Palliative Care,1216,<11,
+Family Medicine,740,<11,
+Hematopoietic Cell Transplantation and Cellular Therapy,137,<11,
+Surgical Oncology,851,<11,
+Oral & Maxillofacial Surgery,560,<11,
+Advanced Heart Failure and Transplant Cardiology,771,0,0.0
+Clinic/Center,123,0,0.0
+Cardiac Surgery,546,0,0.0
+Gynecological Oncology,990,0,0.0
+Neurological Surgery,294,0,0.0
+Micrographic Dermatologic Surgery,355,0,0.0
+Pathology,119,0,0.0
+Osteopathic Manipulative Medicine,554,0,0.0
+"Psychologist, Clinical",129,0,0.0
+Sleep Medicine,675,0,0.0
+Registered Nurse,509,0,0.0
+Undersea and Hyperbaric Medicine,106,0,0.0
+Undefined Physician type,159,0,0.0

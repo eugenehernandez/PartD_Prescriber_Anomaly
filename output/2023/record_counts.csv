@@ -1,0 +1,13 @@
+source,step,description,rows,rows_removed
+Part D,raw_partd,Part D Prescribers by Provider file as published,1380665,
+Part D,s01_individuals,"keep individual prescribers, drop organizations",1380664,1.0
+Part D,s02_us_address,keep United States practice addresses,1380517,147.0
+Part D,s03_benes_reported,drop rows with a suppressed beneficiary count (1 to 10),1237147,143370.0
+Part D,s04_clean,drop rows with no specialty or zero totals,1237146,1.0
+Part D,s05_common_specialty,drop specialties below the national minimum,1236075,1071.0
+Part D,s06_features,compute features (no rows removed),1236075,0.0
+LEIE,raw_leie,LEIE exclusion list as published,84224,
+LEIE,l01_leie_valid_npi,keep exclusions recorded with an NPI,9023,75201.0
+LEIE,l02_leie_after_data_year,keep exclusions dated after the data year,2322,6701.0
+LEIE,l03_leie_one_per_npi,one row per NPI (earliest qualifying exclusion),2313,9.0
+Join,s07_labeled,attach later-exclusion label (row count must not change),1236075,0.0

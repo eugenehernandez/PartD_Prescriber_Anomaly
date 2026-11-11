@@ -1,0 +1,4 @@
+flag_share_pct,flagged_by_both,flagged_by_isolation_forest_only,flagged_by_baseline_only,jaccard,spearman_rank_correlation
+0.5,4790,1560,1560,0.6056,0.9007
+1.0,9949,2752,2752,0.6438,0.9007
+5.0,38142,25362,25362,0.4292,0.9007

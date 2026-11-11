@@ -1,0 +1,10 @@
+variant,lift_at_k,auroc,average_precision,excluded_among_flagged,share_of_primary_flags_kept,max_specialty_flag_rate_pct
+primary,3.9301,0.5983,0.0004,9,1.0,6.0869
+peer group national only,4.3668,0.6028,0.0003,10,0.76,7.5961
+larger state peer minimum (100),4.8034,0.5992,0.0004,11,0.9379,6.2144
+above-peer deviations only,3.4934,0.5771,0.0003,8,0.4759,6.6872
+without patient risk score,6.1135,0.609,0.0004,14,0.8282,6.2446
+max_samples 1024,5.2401,0.5973,0.0003,12,0.7985,8.7799
+n_estimators 100,4.3668,0.6034,0.0004,10,0.8936,6.3351
+max_features 0.5,4.8034,0.5971,0.0004,11,0.8274,7.8007
+rank-based peer scores,6.1135,0.6268,0.0004,14,0.4204,3.3304

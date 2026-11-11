@@ -1,0 +1,7 @@
+outcome,method,n_prescribers,n_excluded_later,base_rate_pct,n_flagged,excluded_among_flagged,precision_at_k_pct,lift_at_k,p_value_vs_random,auroc,average_precision
+any exclusion,isolation_forest,1236075,395,0.032,12361,11,0.089,2.7848,0.0024,0.6044,0.0006
+any exclusion,peer_z_baseline,1236075,395,0.032,12361,13,0.1052,3.2911,0.0002,0.5681,0.0005
+any exclusion,random (reference),1236075,395,0.032,12361,2,0.0162,0.5063,0.9059,0.5046,0.0003
+fraud-related exclusion,isolation_forest,1236075,133,0.0108,12361,3,0.0243,2.2556,0.1491,0.6144,0.0002
+fraud-related exclusion,peer_z_baseline,1236075,133,0.0108,12361,3,0.0243,2.2556,0.1491,0.5636,0.0001
+fraud-related exclusion,random (reference),1236075,133,0.0108,12361,1,0.0081,0.7519,0.7373,0.5375,0.0001

@@ -1,0 +1,15 @@
+method,flag_share_pct,n_flagged,excluded_among_flagged,lift
+isolation_forest,0.1,1236,1,2.5318
+isolation_forest,0.25,3090,3,3.0382
+isolation_forest,0.5,6180,6,3.0382
+isolation_forest,1.0,12361,11,2.7848
+isolation_forest,2.0,24722,30,3.7974
+isolation_forest,5.0,61804,54,2.7342
+isolation_forest,10.0,123608,84,2.1266
+peer_z_baseline,0.1,1236,1,2.5318
+peer_z_baseline,0.25,3090,2,2.0254
+peer_z_baseline,0.5,6180,5,2.5318
+peer_z_baseline,1.0,12361,13,3.2911
+peer_z_baseline,2.0,24722,28,3.5442
+peer_z_baseline,5.0,61804,42,2.1266
+peer_z_baseline,10.0,123608,64,1.6202

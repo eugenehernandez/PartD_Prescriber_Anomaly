@@ -1,0 +1,13 @@
+check_name,severity,n_flagged,n_base,pct_flagged
+NPI is unique in the analysis file,error,0.0,1270084,0.0
+label join did not change the row count,error,0.0,1270084,0.0
+raw NPIs that are not 10 digits,error,0.0,1416883,0.0
+"shares above 1 (brand, opioid, antibiotic)",error,0.0,1270084,0.0
+"brand share suppressed (scored 0, no evidence either way)",info,543267.0,1270084,42.77
+"opioid share suppressed or blank (scored 0, no evidence either way)",info,326078.0,1270084,25.67
+"antibiotic share suppressed or blank (scored 0, no evidence either way)",info,322377.0,1270084,25.38
+"beneficiary risk score missing (scored 0, no evidence either way)",info,0.0,1270084,0.0
+analysis prescribers excluded after the data year (label),info,229.0,1270084,0.02
+"analysis prescribers excluded after the data year for fraud (1128a1, 1128a3)",info,71.0,1270084,0.01
+LEIE NPIs excluded after the data year found among all raw prescribers,info,269.0,1445,18.62
+prescribers with an exclusion dated on or before the data year end,info,40.0,1270084,0.0

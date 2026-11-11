@@ -1,0 +1,86 @@
+specialty,prescribers,flagged,flag_rate_pct
+Family Practice,110032,5275,4.79
+Pharmacist,29818,1815,6.09
+Emergency Medicine,53677,947,1.76
+Nurse Practitioner,252540,668,0.26
+Physician Assistant,129827,629,0.48
+Internal Medicine,115939,500,0.43
+Dermatology,13993,309,2.21
+Cardiology,18921,256,1.35
+Hospitalist,18962,240,1.27
+Pulmonary Disease,9402,182,1.94
+Urology,10388,128,1.23
+Ophthalmology,18430,124,0.67
+Dentist,122227,113,0.09
+Nephrology,9091,112,1.23
+Neurology,13612,109,0.8
+Obstetrics & Gynecology,28720,107,0.37
+Orthopedic Surgery,20346,98,0.48
+General Practice,7687,92,1.2
+Hematology-Oncology,8948,83,0.93
+Gastroenterology,14492,77,0.53
+Endocrinology,6517,76,1.17
+Infectious Disease,5643,72,1.28
+Critical Care (Intensivists),1756,49,2.79
+General Surgery,19048,47,0.25
+Neurosurgery,3298,42,1.27
+Psychiatry,20434,40,0.2
+Rheumatology,5220,38,0.73
+Otolaryngology,9965,36,0.36
+Interventional Cardiology,4757,36,0.76
+Sports Medicine,1839,32,1.74
+Anesthesiology,3480,27,0.78
+Oral Surgery (Dentist only),5561,25,0.45
+Student in an Organized Health Care Education/Training Program,56278,25,0.04
+Psychiatry & Neurology,9230,24,0.26
+Clinical Cardiac Electrophysiology,2636,22,0.83
+Geriatric Medicine,1859,22,1.18
+Medical Oncology,3560,21,0.59
+Pediatric Medicine,2244,18,0.8
+Allergy/ Immunology,3639,18,0.49
+Vascular Surgery,3293,14,0.43
+Radiation Oncology,4520,13,0.29
+Plastic and Reconstructive Surgery,3236,11,0.34
+Podiatry,15174,11,0.07
+Physical Medicine and Rehabilitation,7998,<11,
+Hematology,834,<11,
+Pain Management,2786,<11,
+Orthopaedic Surgery,1530,<11,
+Certified Clinical Nurse Specialist,1651,<11,
+Interventional Radiology,686,<11,
+Interventional Pain Management,1495,<11,
+Certified Nurse Midwife,1854,<11,
+Diagnostic Radiology,1358,<11,
+Hospice and Palliative Care,1294,<11,
+Neuropsychiatry,1294,<11,
+Maxillofacial Surgery,709,<11,
+Hand Surgery,1538,<11,
+Specialist,943,<11,
+Thoracic Surgery,1241,<11,
+Addiction Medicine,385,<11,
+Dental Hygienist,140,<11,
+Naturopath,907,<11,
+Registered Nurse,507,<11,
+Surgery,247,<11,
+Preventive Medicine,618,<11,
+Plastic Surgery,872,<11,
+Oral & Maxillofacial Surgery,619,<11,
+Optometry,29727,<11,
+Family Medicine,750,<11,
+Colorectal Surgery (Proctology),1639,<11,
+Geriatric Psychiatry,161,<11,
+"Psychologist, Clinical",125,<11,
+Hematopoietic Cell Transplantation and Cellular Therapy,133,<11,
+Cardiac Surgery,515,0,0.0
+Certified Registered Nurse Anesthetist (CRNA),125,0,0.0
+Clinic/Center,105,0,0.0
+Advanced Heart Failure and Transplant Cardiology,808,0,0.0
+Gynecological Oncology,1004,0,0.0
+Micrographic Dermatologic Surgery,380,0,0.0
+Neurological Surgery,290,0,0.0
+Osteopathic Manipulative Medicine,563,0,0.0
+Pathology,127,0,0.0
+Sleep Medicine,736,0,0.0
+Surgical Oncology,907,0,0.0
+Undersea and Hyperbaric Medicine,103,0,0.0
+Undefined Physician type,141,0,0.0
