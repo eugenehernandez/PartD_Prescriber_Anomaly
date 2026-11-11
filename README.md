@@ -1,4 +1,4 @@
-# partd-prescriber-anomaly
+# PartD_Prescriber_Anomaly
 
 Peer-relative anomaly detection for Medicare Part D prescribers, using an Isolation Forest checked against a statistical baseline and against later exclusions from Medicare. Built in Python and SQL, and runs unchanged on a laptop (DuckDB) or in Databricks (Spark, with MLflow tracking).
 
@@ -197,4 +197,4 @@ Being unusual is not evidence of fraud. Many flagged prescribers will have legit
 
 ## Acknowledgments
 
-Built with Claude as an AI coding assistant. Design decisions, review, and interpretation are my own.
+Built with AI assistant. Design decisions, review, and interpretation are my own.
